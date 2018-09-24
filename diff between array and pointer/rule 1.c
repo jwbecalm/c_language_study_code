@@ -28,3 +28,17 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
+
+
+
+
+
+/*
+运行结果
+a[0]=0
+*p=0
+a[i]=2
+*(p+i)=2
+*p=2, after p = a + i
+
+*/
